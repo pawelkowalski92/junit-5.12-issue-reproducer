@@ -22,4 +22,4 @@ jobs:
         build-scan-terms-of-use-agree: "yes"
 
     - name: Run build
-      run: gradle test
+      run: gradle test --debug
